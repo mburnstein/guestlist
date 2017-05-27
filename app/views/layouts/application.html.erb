@@ -9,6 +9,21 @@
   </head>
 
   <body>
+      <header class="row">
+        <div class="col-3">
+          <h1>GuestList</h1>
+        </div>
+        <div class="col-4>
+          Add your name to the list
+        </div>
+        <div class="col-5">
+          <%= link_to 'Add Name', new_guest_path %>
+          <%= link_to 'Home', root_path %>
+        </div>
+      </header>
+
+
+
     <%= yield %>
   </body>
 </html>

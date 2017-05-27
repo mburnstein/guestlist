@@ -1,0 +1,10 @@
+<% @guest.each do |guest| %>
+  <div>
+    <i><%= link_to guest.first_name, guest_path(guest) %></i>
+    <p><%= link_to guest.last_name, guest_path(guest) %></p>
+    <br />
+  </div>
+<% end %>
+
+
+
