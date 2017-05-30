@@ -1,7 +1,11 @@
 
-<%= simple_form_for @guest do |f| %>
-  <%= f.input :first_name %>
-  <%= f.input :last_name %>
-  <br />
-  <%= f.submit 'Save', class: 'btn btn-danger' %>
-<% end %>
+
+<div class="container booyah-box col-10 offset-1">
+  <h1>Add Your Name</h1>
+    <%= simple_form_for @guest do |f| %>
+      <%= f.input :first_name %>
+      <%= f.input :last_name %>
+      <br />
+      <%= f.submit 'Save', class: 'btn-sm' %>
+    <% end %>
+</div>

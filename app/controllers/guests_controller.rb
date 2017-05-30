@@ -1,6 +1,7 @@
 class GuestsController < ApplicationController
   def index
-    @guest = Guest.all
+    @guests = Guest.all
+    @guest = @guests.order(:last_name)
   end
 
   def new

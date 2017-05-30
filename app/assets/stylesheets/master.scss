@@ -1,0 +1,30 @@
+@import "bootstrap";
+
+.mynav {
+  height: 75px;
+}
+
+.booyah-box {
+    background-color: #F5F5DC;
+    -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+    -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+    box-shadow: 1px 1px 2px 0 #d0d0d0;
+    border: 1px solid #ccc;
+    border-color: #eccbaa;
+    margin-top: 20px;
+    padding-bottom: 5px;
+  }
+
+  .btn-sm {
+    background-color: #e3f2fd;
+    color: #0275d8;
+  }
+
+  .name {
+    font-size: 40px;
+  }
+
+  .no-underline a:link, .no-underline a:visited, .no-underline a:hover, .no-underline a:active,  { 
+    text-decoration: none; 
+    color:inherit;
+} 
